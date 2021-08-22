@@ -40,7 +40,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.tapmode.flutterstarter"
+        applicationId "me.trof.basebuild"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
@@ -55,6 +55,23 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+
+flavorDimensions "app"
+
+productFlavors {
+    dev {
+        dimension "app"
+        resValue "string", "app_name", "Dev App"
+        applicationId "me.trof.basebuild.dev"
+    }
+    prod {
+        dimension "app"
+        resValue "string", "app_name", "Prod App"
+        applicationId "me.trof.baseBuild.prod"
+        
+    }
+}
 }
 
 flutter {

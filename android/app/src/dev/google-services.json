@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "542220102534",
+    "project_id": "basebuild-dev",
+    "storage_bucket": "basebuild-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542220102534:android:ffbbbfdcc591afd5465a07",
+        "android_client_info": {
+          "package_name": "me.trof.basebuild.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542220102534-lg2nlgrqarh92jqtr6skm0p6ssqairvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY9Bd22e9Hvz3-rry_tHcfM-U5WK5XPDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542220102534-lg2nlgrqarh92jqtr6skm0p6ssqairvp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542220102534-7jm1tqu0ummu2v6uht2esl7dhu7ss5h4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.trof.basebuild.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

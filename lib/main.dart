@@ -8,6 +8,7 @@ import 'package:flutter_starter/ui/components/components.dart';
 import 'package:flutter_starter/helpers/helpers.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:flex_color_scheme/flex_color_scheme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,8 +34,8 @@ class MyApp extends StatelessWidget {
           ],
           debugShowCheckedModeBanner: false,
           //defaultTransition: Transition.fade,
-          theme: AppThemes.lightTheme,
-          darkTheme: AppThemes.darkTheme,
+          theme: FlexColorScheme.light(scheme: FlexScheme.mandyRed).toTheme,
+          darkTheme: FlexColorScheme.light(scheme: FlexScheme.mandyRed).toTheme,
           themeMode: ThemeMode.system,
           initialRoute: "/",
           getPages: AppRoutes.routes,
